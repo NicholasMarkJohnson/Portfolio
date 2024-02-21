@@ -298,6 +298,10 @@ section {
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
   
   .section-container {
@@ -359,7 +363,6 @@ section {
   #projects .article-container  {
     max-width: 400px;
     max-height: 400px;
-    background: lightgray;
     border-radius: 2rem;
   }
   
@@ -375,6 +378,7 @@ section {
   }
   .project-img-moon {
     object-fit: scale-down;
+    width: 100%;
   }
   
   .project-title {
