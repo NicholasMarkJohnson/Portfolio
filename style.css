@@ -362,7 +362,7 @@ section {
 
   #projects .article-container  {
     max-width: 400px;
-    max-height: 400px;
+    min-height: 295px;
     border-radius: 2rem;
   }
   
@@ -378,6 +378,7 @@ section {
   }
   .project-img-moon {
     object-fit: scale-down;
+    object-position: center;
     width: 100%;
   }
   
