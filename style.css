@@ -152,6 +152,14 @@ section {
     box-sizing: border-box;
     min-height: fit-content;
   }
+
+  section#projects{
+    margin-bottom: 6rem;
+  }
+
+  section#experience{
+    height: fit-content;
+  }
   
   .section-container {
     display: flex;
